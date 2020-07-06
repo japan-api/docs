@@ -10,41 +10,40 @@
         </h1>
       </v-col>
     </v-row>
-     <v-breadcrumbs :items="items"
-     class="red--text" large divider="|">
+     <v-breadcrumbs :items="items" class="red--text" large divider="|">
      </v-breadcrumbs>
   </v-container>
 </template>
 
 <script>
 export default {
-  name: 'Logo',
+  name: 'EndpointsList',
   data: () => ({
     items: [
       {
         text: 'All',
         disabled: false,
-        href: '#prefecture-anchor',
+        href: '#all',
       },
       {
         text: 'By Area Rank',
         disabled: false,
-        href: 'breadcrumbs_link_1',
+        href: '#area_rank/',
       },
       {
         text: 'By Population Rank',
         disabled: false,
-        href: 'breadcrumbs_link_1',
+        href: '#population_rank/',
       },
       {
         text: 'By ISO Code',
         disabled: false,
-        href: 'breadcrumbs_link_1',
+        href: '#iso_code/',
       },
       {
         text: 'Japan',
         disabled: false,
-        href: 'breadcrumbs_link_1',
+        href: '#japan',
       },
       {
         text: 'Hokkaido',
@@ -54,57 +53,57 @@ export default {
       {
         text: 'Aomori',
         disabled: false,
-        href: 'breadcrumbs_link_1',
+        href: '#aomori',
       },
       {
         text: 'Iwate',
         disabled: false,
-        href: 'breadcrumbs_link_1',
+        href: '#iwate',
       },
       {
         text: 'Miyagi',
         disabled: false,
-        href: 'breadcrumbs_link_1',
+        href: '#miyagi',
       },
       {
         text: 'Akita',
         disabled: false,
-        href: 'breadcrumbs_link_1',
+        href: '#akita',
       },
       {
         text: 'Yamagata',
         disabled: false,
-        href: 'breadcrumbs_link_1',
+        href: '#yamagata',
       },
       {
         text: 'Fukushima',
         disabled: false,
-        href: 'breadcrumbs_link_1',
+        href: '#fukushima',
       },
       {
         text: 'Ibaraki',
         disabled: false,
-        href: 'breadcrumbs_link_1',
+        href: '#ibaraki',
       },
       {
         text: 'Tochigi',
         disabled: false,
-        href: 'breadcrumbs_link_1',
+        href: '#tochigi',
       },
       {
         text: 'Gunma',
         disabled: false,
-        href: 'breadcrumbs_link_1',
+        href: '#gunma',
       },
       {
         text: 'Saitama',
         disabled: false,
-        href: 'breadcrumbs_link_1',
+        href: '#saitama',
       },
       {
         text: 'Chiba',
         disabled: false,
-        href: 'breadcrumbs_link_1',
+        href: '#chiba',
       },
       {
         text: 'Tokyo',
@@ -114,62 +113,62 @@ export default {
       {
         text: 'Kanagawa',
         disabled: false,
-        href: '#prefecture-anchor',
+        href: '#kanagawa',
       },
       {
         text: 'Niigata',
         disabled: false,
-        href: 'breadcrumbs_link_1',
+        href: '#niigata',
       },
       {
         text: 'Toyama',
         disabled: false,
-        href: 'breadcrumbs_link_1',
+        href: '#toyama',
       },
       {
         text: 'Ishikawa',
         disabled: false,
-        href: 'breadcrumbs_link_1',
+        href: '#ishikawa',
       },
       {
         text: 'Fukui',
         disabled: false,
-        href: 'breadcrumbs_link_1',
+        href: '#fukui',
       },
       {
         text: 'Yamanashi',
         disabled: false,
-        href: 'breadcrumbs_link_1',
+        href: '#yamanashi',
       },
       {
         text: 'Nagano',
         disabled: false,
-        href: 'breadcrumbs_link_1',
+        href: '#nagano',
       },
       {
         text: 'Gifu',
         disabled: false,
-        href: 'breadcrumbs_link_1',
+        href: '#gifu',
       },
       {
         text: 'Shizuoka',
         disabled: false,
-        href: 'breadcrumbs_link_1',
+        href: '#shizuoka',
       },
       {
         text: 'Aichi',
         disabled: false,
-        href: 'breadcrumbs_link_1',
+        href: '#aichi',
       },
       {
         text: 'Mie',
         disabled: false,
-        href: 'breadcrumbs_link_1',
+        href: '#mie',
       },
       {
         text: 'Shiga',
         disabled: false,
-        href: 'breadcrumbs_link_1',
+        href: '#shiga',
       },
       {
         text: 'Kyoto',
@@ -184,97 +183,97 @@ export default {
       {
         text: 'Hyogo',
         disabled: false,
-        href: 'breadcrumbs_link_1',
+        href: '#hyogo',
       },
       {
         text: 'Nara',
         disabled: false,
-        href: 'breadcrumbs_link_1',
+        href: '#nara',
       },
       {
         text: 'Wakayama',
         disabled: false,
-        href: 'breadcrumbs_link_1',
+        href: '#wakayama',
       },
       {
         text: 'Tottori',
         disabled: false,
-        href: 'breadcrumbs_link_1',
+        href: '#tottori',
       },
       {
         text: 'Shimane',
         disabled: false,
-        href: 'breadcrumbs_link_1',
+        href: '#shimane',
       },
       {
         text: 'Okayama',
         disabled: false,
-        href: 'breadcrumbs_link_1',
+        href: '#okayama',
       },
       {
         text: 'Hiroshima',
         disabled: false,
-        href: 'breadcrumbs_link_1',
+        href: '#hiroshima',
       },
       {
         text: 'Yamaguchi',
         disabled: false,
-        href: 'breadcrumbs_link_1',
+        href: '#yamaguchi',
       },
       {
         text: 'Tokushima',
         disabled: false,
-        href: 'breadcrumbs_link_1',
+        href: '#tokushima',
       },
       {
         text: 'Kagawa',
         disabled: false,
-        href: 'breadcrumbs_link_1',
+        href: '#kagawa',
       },
       {
         text: 'Ehime',
         disabled: false,
-        href: 'breadcrumbs_link_1',
+        href: '#ehime',
       },
       {
         text: 'Kochi',
         disabled: false,
-        href: 'breadcrumbs_link_1',
+        href: '#kochi',
       },
       {
         text: 'Fukuoka',
         disabled: false,
-        href: 'breadcrumbs_link_1',
+        href: '#fukuoka',
       },
       {
         text: 'Saga',
         disabled: false,
-        href: 'breadcrumbs_link_1',
+        href: '#saga',
       },
       {
         text: 'Nagasaki',
         disabled: false,
-        href: 'breadcrumbs_link_1',
+        href: '#nagasaki',
       },
       {
         text: 'Kumamoto',
         disabled: false,
-        href: 'breadcrumbs_link_1',
+        href: '#kumamoto',
       },
       {
         text: 'Oita',
         disabled: false,
-        href: 'breadcrumbs_link_1',
+        href: '#oita',
       },
       {
         text: 'Miyazaki',
         disabled: false,
-        href: 'breadcrumbs_link_1',
+        href: '#miyazaki',
       },
       {
         text: 'Kagoshima',
         disabled: false,
-        href: 'breadcrumbs_link_1',
+        href: '#kagoshima',
       },
       {
         text: 'Okinawa',

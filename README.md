@@ -1,24 +1,22 @@
-# jp-api-docs
+# Japan API Docs Site 📝
+Written using Vue.js and Vuetify for UI
 
-## Project setup
+# Preview 🔍
+<img src="https://i.imgur.com/JP1sI0B.png">
+<img src="https://i.imgur.com/u5xNKAt.png" width="400">
+<img src="https://i.imgur.com/9WI6qIS.png" width="400">
+
+# Quick Start 🚀
 ```
 npm install
-```
-
-### Compiles and hot-reloads for development
-```
 npm run serve
 ```
+# What I Learned 🧠
+* Vue basics
+* Vuetify
 
-### Compiles and minifies for production
-```
-npm run build
-```
+# ToDo 
+* Deploy on GitHub Pages
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# License 📑 
+(c) 2020 Ilya Revenko. [MIT License](https://tldrlegal.com/license/mit-license)
