@@ -2,19 +2,19 @@
   <v-col cols="12">
     <v-card :id="prefectureName" class="mx-auto" max-width="460">
     <v-card-text>
-      <div class="text-h5">/api/v1/{{ prefectureName }}</div>
+      <div class="text-h5">{{ shortUrl + prefectureName }}</div>
       <p class="display-1 text--primary">
         {{ capitalizeFirst(prefectureName) }}
       </p>
       <p class="text-h7">GET request</p>
       <div class="text-h7 text--primary">
-       Info about {{ capitalizeFirst(prefectureName) }} itself
+        {{ info + capitalizeFirst(prefectureName) }}
       </div>
     </v-card-text>
     <v-card-actions>
       <v-btn text color="red lighten-1" class="mx-auto">
         <a class="red--text text--lighten-2" :href="baseUrl + prefectureName" target="_blank">
-          japanapi.pythonanywhere.com/api/v1/{{ prefectureName.toUpperCase() }}
+          {{ noProtocolUrl + prefectureName.toUpperCase() }}
         </a>
       </v-btn>
     </v-card-actions>
@@ -31,6 +31,9 @@ export default {
   },
   data: () => ({
     baseUrl: 'https://japanapi.pythonanywhere.com/api/v1/',
+    noProtocolUrl: 'japanapi.pythonanywhere.com/api/v1/',
+    shortUrl: '/api/v1/',
+    info: 'Info about',
   }),
 };
 </script>

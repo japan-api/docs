@@ -1,6 +1,5 @@
 <template>
   <v-app>
-    <v-content>
       <Navbar/>
       <EndpointsList/>
       <EndpointInfo
@@ -71,7 +70,6 @@
       <PrefectureInfo prefecture-name="miyazaki"/>
       <PrefectureInfo prefecture-name="kagoshima"/>
       <PrefectureInfo prefecture-name="okinawa"/>
-    </v-content>
   </v-app>
 </template>
 
@@ -96,3 +94,9 @@ export default {
   }),
 };
 </script>
+
+<style>
+.v-breadcrumbs__item {
+  color: #f18282 !important;
+}
+</style>

@@ -16,7 +16,7 @@ npm run serve
 * Vuetify
 
 # ToDo 
-* Deploy on GitHub Pages
+* Update UI
 
 # License 📑 
 (c) 2020 Ilya Revenko. [MIT License](https://tldrlegal.com/license/mit-license)

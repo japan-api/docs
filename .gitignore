@@ -21,7 +21,9 @@ lib-cov
 # Coverage directory used by tools like istanbul
 coverage
 *.lcov
-
+/public
+.public
+public
 # nyc test coverage
 .nyc_output
 
@@ -105,3 +107,8 @@ dist
 
 .package-lock.json
 package-lock.json
+/dist
+/public
+public
+.deploy.sh
+deploy.sh
