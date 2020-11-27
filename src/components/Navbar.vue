@@ -1,5 +1,5 @@
 <template>
-<v-app-bar app color="red lighten-4">
+<v-app-bar app color="pink lighten-2">
       <div class="d-flex align-center">
        <v-img alt="japan" class="shrink mr-2" contain src="../assets/japan-logo.png"
        transition="scale-transition" width="40"/>

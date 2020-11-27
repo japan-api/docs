@@ -88,15 +88,5 @@ export default {
     PrefectureInfo,
     EndpointInfo,
   },
-
-  data: () => ({
-  //
-  }),
 };
 </script>
-
-<style>
-.v-breadcrumbs__item {
-  color: #f18282 !important;
-}
-</style>

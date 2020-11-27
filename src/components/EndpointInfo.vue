@@ -12,8 +12,8 @@
       </div>
     </v-card-text>
     <v-card-actions>
-      <v-btn text color="red lighten-1" class="mx-auto">
-        <a class="red--text text--lighten-2" :href="baseUrl + endpointName" target="_blank">
+      <v-btn text color="pink lighten-1" class="mx-auto">
+        <a class="pink--text" :href="baseUrl + endpointName" target="_blank">
           {{ noProtocolUrl + endpointName.toUpperCase() }}
         </a>
       </v-btn>
@@ -30,8 +30,8 @@ export default {
     capitalizeFirst: (word) => word.charAt(0).toUpperCase() + word.slice(1),
   },
   data: () => ({
-    baseUrl: 'https://japanapi.pythonanywhere.com/api/v1/',
-    noProtocolUrl: 'japanapi.pythonanywhere.com/api/v1/',
+    baseUrl: 'https://japan-api.herokuapp.com/api/v1/',
+    noProtocolUrl: 'japan-api.herokuapp.com/api/v1/',
     shortUrl: '/api/v1/',
   }),
 };
