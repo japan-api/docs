@@ -20,6 +20,16 @@ const endpoints = [
     href: '#iso_code/',
   },
   {
+    text: 'Random Prefecture',
+    disabled: false,
+    href: '#random_prefecture',
+  },
+  {
+    text: 'Random Fact',
+    disabled: false,
+    href: '#random_fact',
+  },
+  {
     text: 'Japan',
     disabled: false,
     href: '#japan',

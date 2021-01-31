@@ -30,8 +30,8 @@ export default {
     capitalizeFirst: (word) => word.charAt(0).toUpperCase() + word.slice(1),
   },
   data: () => ({
-    baseUrl: 'https://japan-api.herokuapp.com/api/v1/',
-    noProtocolUrl: 'japan-api.herokuapp.com/api/v1/',
+    baseUrl: 'https://japan-api.ninja/api/v1/',
+    noProtocolUrl: 'japan-api.ninja/api/v1/',
     shortUrl: '/api/v1/',
   }),
 };

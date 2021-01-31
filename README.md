@@ -12,4 +12,4 @@ npm run serve
 * Vuetify
 
 # License 📑 
-(c) 2020 Ilya Revenko. [MIT License](https://tldrlegal.com/license/mit-license)
+(c) 2020-2021 Ilya Revenko. [MIT License](https://tldrlegal.com/license/mit-license)

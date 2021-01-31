@@ -22,6 +22,16 @@
       endpoint-full-name="iso_code/int:prefecture_iso"
       endpoint-info="Find by ISO Code (among all prefectures)"
       endpoint-type="by ISO Code"/>
+      <EndpointInfo
+      endpoint-name="random_prefecture"
+      endpoint-full-name="random_prefecture"
+      endpoint-info="Returns random prefecture data"
+      endpoint-type="Random Prefecture"/>
+      <EndpointInfo
+      endpoint-name="random_fact"
+      endpoint-full-name="random_fact"
+      endpoint-info="Returns random fact about Japan"
+      endpoint-type="Random Fact"/>
       <PrefectureInfo prefecture-name="japan"/>
       <PrefectureInfo prefecture-name="hokkaido"/>
       <PrefectureInfo prefecture-name="aomori"/>

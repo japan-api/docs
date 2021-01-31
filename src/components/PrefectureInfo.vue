@@ -8,7 +8,7 @@
       </p>
       <p class="text-h7">GET request</p>
       <div class="text-h7 text--primary">
-        {{ info + capitalizeFirst(prefectureName) }}
+        {{ info + " " + capitalizeFirst(prefectureName) }}
       </div>
     </v-card-text>
     <v-card-actions>
@@ -30,8 +30,8 @@ export default {
     capitalizeFirst: (word) => word.charAt(0).toUpperCase() + word.slice(1),
   },
   data: () => ({
-    baseUrl: 'https://japan-api.herokuapp.com/api/v1/',
-    noProtocolUrl: 'japan-api.herokuapp.com/api/v1/',
+    baseUrl: 'https://japan-api.ninja/api/v1/',
+    noProtocolUrl: 'japan-api.ninja/api/v1/',
     shortUrl: '/api/v1/',
     info: 'Info about',
   }),
